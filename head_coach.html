@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>NFL Database - Head Coaches</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+      <h1 align="center">Head Coaches</h1>
+      <ul class="menu-list">
+         <li class="list-item"><a href="index.html">Home</a></li>
+         <li class="list-item"><a href="divisions.html">Divisions</a></li>
+         <li class="list-item"><a href="head_coach.html">Head Coaches</a></li>
+         <li class="list-item"><a href="teams.html">Teams</a></li>
+         <li class="list-item"><a href="positions.html">Positions</a></li>
+         <li class="list-item"><a href="players.html">Players</a></li>
+      </ul>
+      <table>
+         <thead>
+            <tr>
+               <th>Coach ID</th>
+               <th>First Name</th>
+               <th>Last Name</th>
+               <th>Team ID</th>
+               <th>Career Wins</th>
+               <th>Career Losses</th>
+               <th>Career Ties</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>1</td>
+               <td>Bill</td>
+               <td>Belichick</td>
+               <td>1</td>
+               <td>269</td>
+               <td>123</td>
+               <td>1</td>
+            </tr>
+            <!-- <tr>
+               <td>2</td>
+               <td>Buffalo</td>
+               <td>Bills</td>
+               <td>5</td>
+               <td>2</td>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>New York</td>
+               <td>Jets</td>
+               <td>1</td>
+               <td>6</td>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>Miami</td>
+               <td>Dolphins</td>
+               <td>0</td>
+               <td>6</td>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>5</td>
+               <td>Kansas City</td>
+               <td>Chiefs</td>
+               <td>5</td>
+               <td>3</td>
+               <td>0</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>6</td>
+               <td>Oakland</td>
+               <td>Raiders</td>
+               <td>3</td>
+               <td>4</td>
+               <td>0</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>7</td>
+               <td>Los Angeles</td>
+               <td>Chargers</td>
+               <td>3</td>
+               <td>5</td>
+               <td>0</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>8</td>
+               <td>Denver</td>
+               <td>Broncos</td>
+               <td>2</td>
+               <td>6</td>
+               <td>0</td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>9</td>
+               <td>Baltimore</td>
+               <td>Ravens</td>
+               <td>5</td>
+               <td>2</td>
+               <td>0</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>10</td>
+               <td>Pittsburgh</td>
+               <td>Steelers</td>
+               <td>2</td>
+               <td>4</td>
+               <td>0</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>11</td>
+               <td>Cleveland</td>
+               <td>Brownsa</td>
+               <td>2</td>
+               <td>5</td>
+               <td>0</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>12</td>
+               <td>Cincinnati</td>
+               <td>Bengals</td>
+               <td>0</td>
+               <td>8</td>
+               <td>0</td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>13</td>
+               <td>Indianapolis</td>
+               <td>Colts</td>
+               <td>5</td>
+               <td>2</td>
+               <td>0</td>
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>14</td>
+               <td>Houston</td>
+               <td>Texans</td>
+               <td>5</td>
+               <td>3</td>
+               <td>0</td>
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>15</td>
+               <td>Jacksonville</td>
+               <td>Jaguars</td>
+               <td>4</td>
+               <td>4</td>
+               <td>0</td>
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>16</td>
+               <td>Tennessee</td>
+               <td>Titans</td>
+               <td>4</td>
+               <td>4</td>
+               <td>0</td>
+               <td>4</td>
+            </tr>
+            <tr>
+               <td>17</td>
+               <td>Dallas</td>
+               <td>Cowboys</td>
+               <td>4</td>
+               <td>3</td>
+               <td>0</td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>18</td>
+               <td>Philadelphia</td>
+               <td>Eagles</td>
+               <td>4</td>
+               <td>4</td>
+               <td>0</td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>19</td>
+               <td>New York</td>
+               <td>Giants</td>
+               <td>2</td>
+               <td>6</td>
+               <td>0</td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>20</td>
+               <td>Washington</td>
+               <td>Redskins</td>
+               <td>1</td>
+               <td>7</td>
+               <td>0</td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>21</td>
+               <td>San Francisco</td>
+               <td>49ers</td>
+               <td>7</td>
+               <td>0</td>
+               <td>0</td>
+               <td>6</td>
+            </tr>
+            <tr>
+               <td>22</td>
+               <td>Seattle</td>
+               <td>Seahawks</td>
+               <td>6</td>
+               <td>2</td>
+               <td>0</td>
+               <td>6</td>
+            </tr>
+            <tr>
+               <td>23</td>
+               <td>Los Angeles</td>
+               <td>Rams</td>
+               <td>5</td>
+               <td>3</td>
+               <td>0</td>
+               <td>6</td>
+            </tr>
+            <tr>
+               <td>24</td>
+               <td>Arizona</td>
+               <td>Cardinals</td>
+               <td>3</td>
+               <td>4</td>
+               <td>1</td>
+               <td>6</td>
+            </tr>
+            <tr>
+               <td>25</td>
+               <td>Green Bay</td>
+               <td>Packers</td>
+               <td>7</td>
+               <td>1</td>
+               <td>0</td>
+               <td>7</td>
+            </tr>
+            <tr>
+               <td>26</td>
+               <td>Minnesota</td>
+               <td>Vikings</td>
+               <td>6</td>
+               <td>2</td>
+               <td>0</td>
+               <td>7</td>
+            </tr>
+            <tr>
+               <td>27</td>
+               <td>Detriot</td>
+               <td>Lions</td>
+               <td>3</td>
+               <td>3</td>
+               <td>1</td>
+               <td>7</td>
+            </tr>
+            <tr>
+               <td>28</td>
+               <td>Chicago</td>
+               <td>Bears</td>
+               <td>3</td>
+               <td>4</td>
+               <td>0</td>
+               <td>7</td>
+            </tr>
+            <tr>
+               <td>29</td>
+               <td>New Orleans</td>
+               <td>Saints</td>
+               <td>7</td>
+               <td>1</td>
+               <td>0</td>
+               <td>8</td>
+            </tr>
+            <tr>
+               <td>30</td>
+               <td>Carolina</td>
+               <td>Panthers</td>
+               <td>4</td>
+               <td>3</td>
+               <td>0</td>
+               <td>8</td>
+            </tr>
+            <tr>
+               <td>31</td>
+               <td>Tampa Bay</td>
+               <td>Buccaneers</td>
+               <td>2</td>
+               <td>5</td>
+               <td>0</td>
+               <td>8</td>
+            </tr>
+            <tr>
+               <td>32</td>
+               <td>Atlanta</td>
+               <td>Falcons</td>
+               <td>1</td>
+               <td>7</td>
+               <td>0</td>
+               <td>8</td>
+            </tr> -->
+         </tbody>
+      </table>
+	</body>
+</html>
