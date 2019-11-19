@@ -16,12 +16,12 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `cs340_kramerje`
+-- Current Database: `cs340_peterkyl`
 --
 
 CREATE DATABASE /*!32312 IF NOT EXISTS*/ `cs340_peterkyl` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `cs340_kramerje`;
+USE `cs340_peterkyl`;
 
 --
 -- Table structure for table `dealership`
